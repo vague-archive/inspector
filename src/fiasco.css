@@ -1,0 +1,283 @@
+:root {
+  /* fiasco design system - deprecated in favor of the @vaguevoid/design-system package */
+
+  --fiasco-family: "Instrument Sans", system-ui, Inter, Avenir, Roboto, Helvetica, Arial, sans-serif;
+
+  --plue: rgb(102, 89, 255);
+  --plue50: rgb(240, 238, 255);
+  --plue100: rgb(208, 204, 255);
+  --plue200: rgb(185, 179, 255);
+  --plue300: rgb(152, 144, 255);
+  --plue400: rgb(133, 122, 255);
+  --plue500: rgb(102, 89, 255);
+  --plue600: rgb(93, 81, 232);
+  --plue700: rgb(72, 63, 181);
+  --plue800: rgb(56, 49, 140);
+  --plue900: rgb(43, 37, 107);
+
+  --pluetral50: rgb(249, 249, 251);
+  --pluetral100: rgb(243, 243, 246);
+  --pluetral200: rgb(230, 229, 235);
+  --pluetral300: rgb(210, 209, 219);
+  --pluetral400: rgb(158, 156, 175);
+  --pluetral500: rgb(109, 107, 128);
+  --pluetral600: rgb(77, 75, 99);
+  --pluetral700: rgb(57, 55, 81);
+  --pluetral800: rgb(33, 31, 55);
+  --pluetral900: rgb(22, 21, 35);
+
+  --pluetral-1m-100: var(--pluetral100);
+  --pluetral-1m-400: var(--pluetral400);
+  --pluetral-1m-500: var(--pluetral500);
+
+  --breen: rgb(209, 224, 5);
+  --breen50: rgb(250, 252, 230);
+  --breen100: rgb(241, 245, 178);
+  --breen200: rgb(234, 241, 140);
+  --breen300: rgb(224, 234, 88);
+  --breen400: rgb(218, 230, 55);
+  --breen500: rgb(209, 224, 5);
+  --breen600: rgb(190, 204, 5);
+  --breen700: rgb(148, 159, 4);
+  --breen800: rgb(115, 123, 3);
+  --breen900: rgb(88, 94, 2);
+
+  --blueb: rgb(59, 161, 232);
+  --blueb100: rgb(194, 226, 248);
+  --blueb200: rgb(165, 212, 244);
+  --blueb300: rgb(124, 192, 240);
+  --blueb400: rgb(98, 180, 237);
+  --blueb500: rgb(59, 161, 232);
+  --blueb600: rgb(54, 147, 211);
+  --blueb700: rgb(42, 114, 165);
+  --blueb800: rgb(32, 89, 128);
+  --blueb900: rgb(24, 68, 97);
+
+  --grink: rgb(250, 143, 250);
+  --grink50: rgb(255, 244, 255);
+  --grink100: rgb(253, 220, 253);
+  --grink200: rgb(253, 203, 253);
+  --grink300: rgb(252, 180, 252);
+  --grink400: rgb(251, 165, 251);
+  --grink500: rgb(250, 143, 250);
+  --grink600: rgb(228, 130, 228);
+  --grink700: rgb(178, 102, 178);
+  --grink800: rgb(138, 79, 138);
+  --grink900: rgb(105, 60, 105);
+
+  --ped: rgb(255, 64, 64);
+  --ped50: rgb(255, 236, 236);
+  --ped100: rgb(255, 196, 196);
+  --ped200: rgb(255, 167, 167);
+  --ped300: rgb(255, 127, 127);
+  --ped400: rgb(255, 102, 102);
+  --ped500: rgb(255, 64, 64);
+  --ped600: rgb(232, 58, 58);
+  --ped700: rgb(181, 45, 45);
+  --ped800: rgb(140, 35, 35);
+  --ped900: rgb(107, 27, 27);
+
+
+  --neutral: #262626;
+
+  --fonthuge: 3.4rem;
+  --fontlarge: 2.0rem;
+  --fontbig: 1.6rem;
+  --fontnormal: 1.4rem;
+  --fontsmall: 1.2rem;
+  --fonttiny: 1.0rem;
+
+  --font16: 1.6rem;
+  --font14: 1.4rem;
+  --font12: 1.2rem;
+  --font10: 1rem;
+}
+
+body.fiasco main {
+  background-color: white; color: var(--neutral);
+  font-size: var(--font14); font-family: "Instrument Sans", system-ui, Inter, Avenir, Roboto, Helvetica, Arial, sans-serif;
+  background: url(/images/grid.png); background-size: 80px 80px; background-position: calc(50% - 3px) 50%;
+}
+
+.fiasco h1 {
+  font-size: var(--fonthuge);
+  margin: 0;
+}
+
+.fiasco h2 {
+  font-size: var(--fontlarge);
+  margin: 0;
+}
+
+.fiasco h3 {
+  font-size: var(--fontbig);
+  margin: 0;
+}
+
+body.fiasco, .fiasco h4, .fiasco p {
+  font-size: var(--fontnormal);
+  margin: 0;
+}
+
+.fiasco h5 {
+  font-size: var(--fontsmall);
+  margin: 0;
+}
+
+.fiasco h6 {
+  font-size: var(--fonttiny);
+  margin: 0;
+}
+
+.fiasco .pill {
+  border: 1px solid black;
+  border-radius: 32px;
+  padding: 4px 12px;
+  box-shadow: 2px 2px 0 0 black;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.fiasco .pill.small {
+  font-size: 10px;
+  line-height: 15px;
+  display: inline-block;
+}
+
+.fiasco .plue {
+  background-color: var(--plue);
+  color: white;
+  font-size: var(--font16);
+}
+
+.fiasco .pluetext {
+  color: var(--plue);
+}
+
+.fiasco .card {
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 0 black;
+  background-color: white;
+}
+
+.fiasco input {
+  background-color: var(--pluetral-1m-100);
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 0.2rem;
+}
+
+/* https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
+.fiasco input::-webkit-outer-spin-button,
+.fiasco input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input[type=number] {
+  width: 4.8rem;
+}
+
+.fiasco input:not([type="checkbox"]):focus {
+  background-color: white;
+  box-shadow: 1px 1px 0px 0px #000;
+  border: 1px solid var(--plue);
+}
+
+.fiasco .field {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.fiasco .label {
+  flex: 1;
+}
+
+.input-cnr {
+  position: relative;
+  width: calc(11.2rem / 2 - .2rem);
+}
+
+.input-cnr span {
+  position: absolute;
+  left: .4rem;
+  top: .3rem;
+  color: #0009;
+}
+
+.field input:not([type="checkbox"]) {
+  @apply p-1;
+  width: 11.2rem;
+  height: 2.4rem;
+}
+
+.field + .field {
+  margin-top: 0.4rem;
+}
+
+.input-cnr input:not([type="checkbox"]) {
+  width: 100%;
+  padding: .4rem .4rem .4rem 2rem;
+}
+
+.level .row {
+  min-height: 2.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.level .leaf {
+  padding: 0.2rem 0;
+}
+
+.level .multi.field {
+  display: grid;
+  grid-template-columns: 1fr calc(11.2rem / 2 - .2rem) calc(11.2rem / 2 - .2rem);
+  gap: 0.4rem;
+}
+
+.level-1 {
+  @apply text-base;
+  @apply text-dark;
+  font-weight: 700;
+}
+
+.level-2 {
+  @apply text-small;
+  @apply text-dark;
+  font-weight: 600;
+}
+
+.level-n {
+  @apply text-small;
+  @apply text-pluetral-700;
+  font-weight: 400;
+}
+
+.level-2,
+.level-n {
+  margin-left: 0.3rem;
+  padding-left: 1.3rem;
+}
+
+.leaf {
+  margin-left: -0.2rem;
+}
+
+.level li {
+  @apply border-l;
+  @apply border-pluetral-100;
+}
+
+.level:hover li {
+  @apply border-pluetral-500;
+}
+
+.selected .row {
+  @apply text-plue;
+  font-weight: 700;
+}

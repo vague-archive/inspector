@@ -1,0 +1,8 @@
+{
+  "name": "Inspector",
+  "description": "Official fiasco tool for inspecting and tweaking your gameplay",
+  "url": "https://code.void.dev",
+  "devUrl": "http://localhost:5174",
+  "emoji": "🔬",
+  "author": "Fiasco Team"
+}

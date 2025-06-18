@@ -1,0 +1,33 @@
+{
+  "id": "xTU9v9GMaspQY4RHkGZ74",
+  "x": 929.5,
+  "y": 535.5,
+  "width": 39,
+  "height": 39,
+  "version": 1,
+  "meta": {},
+  "color": [0.23137254901960785, 0.6352941176470588, 0.9098039215686274, 1],
+  "isVisible": true,
+  "scale": {
+    "x": 1,
+    "y": 1,
+    "__serializedName": "Vector.v1"
+  },
+  "rotation": 0,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5,
+    "__serializedName": "Vector.v1"
+  },
+  "skew": {
+    "x": 0,
+    "y": 0,
+    "__serializedName": "Vector.v1"
+  },
+  "focusIndex": -1,
+  "colorMap": [],
+  "tags": [],
+  "kids": [],
+  "z": 0,
+  "__serializedName": "Thing.v1"
+}
